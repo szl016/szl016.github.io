@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+@font-face{
+    font-family: latobold;
+    src: url(../fonts/lato/Lato-Bold.ttf);
+}
+@font-face{
+    font-family: openbold;
+    src: url(../fonts/opensans/OpenSans-Bold.ttf);
+}
+@font-face{
+    font-family: openreg;
+    src: url(../fonts/opensans/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family: nexabold;
+    src: url(../fonts/nexa/Nexa Bold.otf);
+}
+body{}
+.full_wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 1366px;
+    margin: 0 auto;
+}
+.header{
+    height: 1038px;
+    background: url(../images/header.jpg) no-repeat;
+    background-size:  cover;
+    position: absolute;
+}
+.nav {
+    background: #010519;
+    height: 117px;
+    position: relative;
+    opacity: .60;
+}
+.nav ul{
+    float: right;
+    padding-left: 523px;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    margin: 0px 40px;
+    color: #fff;
+    line-height: 117px;
+    font-family: latobold;
+    font-size: 27px;
+}
+.nav ul li:last-child a{
+    margin-right: 0px;
+}
+.nav ul li a:hover{
+    border-top: 5px solid #003663;
+    color: #4bcaff;
+}
+.h{
+    height: 42px;
+    padding-left: 1020px;
+    padding-top: 539px;
+}
+.h h4{
+    font-family: openbold;
+    font-size: 82px;
+    color: #fff;
+}
+
+.h h5{
+    font-family: openreg;
+    font-size: 42px;
+    color: #fff;
+    background: #00b4ff;
+    width: 565px;
+    margin-top: 15px;
+}
+.service{
+    height: 844px;
+    background: #188ef0;
+    
+    padding-bottom: 78px;
+}
+.service h1{
+     position: relative;
+     text-align: center;
+
+}
+ .service h1:after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height:2px;
+    background: #000;
+    top: 58px;
+    left: 640px;
+            
+}
+ .content{
+        width: 1366px;
+         height: 497px;
+         padding-left: 149px;
+ }
+
+.service   .first{
+    height: 200px;
+    width: 300px;
+    float: left;
+    padding-right: 86px;
+
+ }
+ .first img{
+    float: left;
+    padding-right: 10px;
+ }
+ .first h4{
+    padding-top: 32px;
+    font-family: openbold;
+    font-size: 18px;
+ }
+.first p{
+    width: 294px;
+    height: 105px;
+    text-align: center;
+    padding-top: 33px;
+    font-family: openreg;
+    font-size: 17px;
+}
+
+.fact{
+    height: 725px;
+    background: #d9d8d8;
+}
+.fact h4{
+    padding-bottom: 200px;
+}
+.fact .curve{
+    height: 435px;
+   
+    background: url(../images/curve.png) no-repeat;   
+}
+.curve .p1{
+    width: 232px;
+    height: 286px;
+    float: left;
+    margin-left: 19px;
+    text-align: center;
+    margin-right: 124px;
+    padding-top: 50px;
+
+}
+.curve .p3{
+    margin-bottom: -20px;
+    float: left;
+}
+.aboutus{
+    height: 398px;
+    background: #b0adad;
+    padding-top: 1035px;
+}
+.portfolio{
+    height: 1120px;
+}
+.portfolio .one{
+    width: 333px;
+    height: auto;
+    position: relative;
+    float: left;
+    border: 15px solid #fff;
+    box-sizing: border-box;
+}
+.portfolio .one img{
+    width: 610px;
+    
+}
+.overly{
+    width: 610px;
+    height: 100%;
+    background: rgba(21,164,250,0.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    transform: scale(0);
+    transition: all linear 0.4s;
+}
+.overly a i{
+    margin-top: 100px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.overly a i:hover{
+    color: #c00;
+    
+}
+.one:hover .overly{
+    transform: scale(1);
+}
+
+.contact{
+    height: 1000px;
+}
+.f4 button{
+    background: #4bcaff;
+    color: #fff;
+    width: 370px;
+    height: 58px;
+    cursor: pointer;
+    
+}
